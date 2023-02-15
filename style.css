@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100vh;
+}
+
+.categories {
+    background: rgb(255,185,255);
+    background: linear-gradient(90deg, rgba(255,185,255,1) 0%, rgba(255,117,255,1) 100%);
+}
+
+.goods {
+    background: rgb(254,209,254);
+    background: linear-gradient(90deg, rgba(254,209,254,1) 0%, rgba(255,142,255,1) 100%);
+}
+
+.good {
+    background: rgb(253,220,253);
+    background: linear-gradient(90deg, rgba(253,220,253,1) 0%, rgba(251,163,251,1) 100%);
+}
+
+.categories-items {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+}
+
+.categories-item {
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: xx-large;
+    text-align: center;
+    background: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.categories-item:hover {
+    background: #fabfef;
+}
+
+.goods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories-h2 {
+    align-self: stretch;
+    background-color: #d375c2;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.categories-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.categories-list-element {
+    padding: 5px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: xx-large;
+    text-align: center;
+    background: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.categories-list-element:hover {
+    background: #ff8dea;
+}
+
+.good {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 30px;
+}
+
+.goods-element-h2 {
+    align-self: stretch;
+    background-color: #f19ee2;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.goods-element-h3 {
+    align-self: stretch;
+    background-color: #ffeeee;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.price {
+    margin: 0;
+    padding: 10px 15px;
+    background-color: #ffeeee;
+}
+
+.buy-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: xx-large;
+    background: #f387f1;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background: #ff8dfd;
+}
+
+.sold {
+    font-size: xx-large;
+}
